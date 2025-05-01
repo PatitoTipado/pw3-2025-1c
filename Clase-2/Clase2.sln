@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase2", "Clase2\Clase2.csproj", "{803AC33F-0191-463C-B2A2-039F3370610A}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase2.API", "Clase2.API\Clase2.API.csproj", "{9FB49C58-02EB-44EC-AF54-FD8D0D55482C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase2.Logica", "Clase2.Logica\Clase2.Logica.csproj", "{A4FFBE2B-278F-4AB4-88D1-2E4B279E2B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquipoWinForce", "EquipoWinForce\EquipoWinForce.csproj", "{C126F3C8-9DEE-47AC-9B75-D0A59B973BBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB2DB1CA-AC01-4B17-8612-732D44164AF2} = {AB2DB1CA-AC01-4B17-8612-732D44164AF2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +42,10 @@ Global
 		{A4FFBE2B-278F-4AB4-88D1-2E4B279E2B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4FFBE2B-278F-4AB4-88D1-2E4B279E2B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4FFBE2B-278F-4AB4-88D1-2E4B279E2B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C126F3C8-9DEE-47AC-9B75-D0A59B973BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C126F3C8-9DEE-47AC-9B75-D0A59B973BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C126F3C8-9DEE-47AC-9B75-D0A59B973BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C126F3C8-9DEE-47AC-9B75-D0A59B973BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
